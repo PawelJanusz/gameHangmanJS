@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: lightgray;
+    font-size: 28px;
+}
+#container{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#board{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+    min-height: 60px;
+    text-transform: uppercase;
+}
+#gallows{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+#alphabet{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+.letter{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.letter:hover{
+    background-color: #222222;
+    color: white;
+    border: 3px
+}
+.reset{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+.reset:hover{
+    font-weight: bold ;
+}
